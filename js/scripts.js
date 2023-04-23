@@ -197,11 +197,11 @@ $(window).on("load",function (){
               $('#contact-form').find('.messages').html('<div class="alert alert-success">Message sent!</div>');
               $('#contact-form')[0].reset();
             } else {
-              $('#contact-form').find('.messages').html('<div class="alert alert-danger">Message failed! If issue persists, please send you message on email. </div>');
+              $('#contact-form').find('.messages').html('<div class="alert alert-danger">Message failed! If issue persists, please send your message on email. </div>');
             }
           },
           error: function () {
-            $('#contact-form').find('.messages').html('<div class="alert alert-danger">Message failed! If issue persists, please send you message on email.</div>');
+            $('#contact-form').find('.messages').html('<div class="alert alert-danger">Message failed! If issue persists, please send your message on email.</div>');
           }
         });
       });
